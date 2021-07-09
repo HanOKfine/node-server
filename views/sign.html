@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+</head>
+<style>
+    .body{
+        padding: 0;
+        margin: 0;
+    }
+    form{
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>注册中心</h1>
+    <form action="/users/adduser" method="POST">
+        email:<br>
+        <input type="text" name="email" value="">
+        <br>
+        phone:<br>
+        <input type="text" name="phone" value="">
+        <br>
+        username:<br>
+        <input type="text" name="username" value="">
+        <br>
+        password:<br>
+        <input type="text" name="password" value="123456">
+        <br><br>
+        age:<br>
+        <input type="number" name="age" value="0">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form> 
+        
+</body>
+</html>
